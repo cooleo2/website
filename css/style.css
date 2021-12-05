@@ -907,6 +907,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
     color:black;
     background-color: #f5f5f5;
     float: left;
+    width: 100%;
     font-size: 30pt;
     text-align: center;
     padding-left: 50px;
