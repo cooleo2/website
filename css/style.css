@@ -738,7 +738,6 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	float: left;
 	font-size: 30pt;
 	text-align: center;
-    padding-left: 75px;
     padding-top: 35px;
 	padding-bottom: 35px;
 
@@ -910,7 +909,6 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
     width: 100%;
     font-size: 30pt;
     text-align: center;
-    padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
