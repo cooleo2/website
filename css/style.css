@@ -244,10 +244,10 @@ a {
 }
 .about_taital_1{
   width: 100%;
-  float: left;
+
   font-size: 20pt;
   text-align: left;
-  margin-top: 70px;
+  margin-top: 50px;
 
 }
 
@@ -257,16 +257,7 @@ a {
     padding-right: 5%;
 }
 
-.magna_text {
-    font-size: 14pt;
-    color: #060401;
-    text-align: left;
-    line-height: 40px;
-    width: 60%;
-    float: left;
-    margin-right: 0px;
-    font-weight: normal;
-}
+
 
 .about_bt{
 	width: 100%;
@@ -274,17 +265,7 @@ a {
     padding-bottom: 20px;
 }
 
-.more_bt {
-    width: 25%;
-    float: left;
-    background-color: #000;
-    border-radius: 40px;
-    font-size: 16pt;
-    border: 0px;
-    height: 50px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .gallery_main{
 	width: 100%;
@@ -785,13 +766,167 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
     height: 20px;
     text-align: center;
 }
+@media screen and (max-width:1024px) {
+    .section_image{
+        width: 70%;
+        margin: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+          /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .prevB,
+  .nextB {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    
+  }
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: white;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
 
-.section_image{
-	float: right;
-    width: 35%;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: relative;
+      }
+    
+    /* Number text (1/3 etc) */
+    .numbertextB {
+        color: black;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+
+    }
+    .magna_text {
+        font-size: 14pt;
+        color: #060401;
+        text-align: left;
+        line-height: 40px;
+        float: left;
+        margin-right: 0px;
+        font-weight: normal;
+    }
+
+    .more_bt {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #000;
+        border-radius: 40px;
+        font-size: 16pt;
+        border: 0px;
+        height: 50px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .section_image{
+        float: right;
+        width: 35%;
+        margin-top: auto;
+        margin-bottom: auto;
+        position: relative;
+    }
+      /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .prevB,
+  .nextB {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: white;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+    
+    /* Number text (1/3 etc) */
+    .numbertextB {
+        color: black;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+    .magna_text {
+        font-size: 14pt;
+        color: #060401;
+        text-align: left;
+        line-height: 40px;
+        width: 60%;
+        float: left;
+        margin-right: 0px;
+        font-weight: normal;
+
+    }
+    .more_bt {
+        width: 25%;
+        float: left;
+        background-color: #000;
+        border-radius: 40px;
+        font-size: 16pt;
+        border: 0px;
+        height: 50px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+  
 }
 
 .exp_section{
@@ -821,70 +956,21 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
   
   
 
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  .prevB,
-  .nextB {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
 /* Position the "next button" to the right */
-.nextB {
+    .nextB {
     right: 0;
     border-radius: 3px 0 0 3px;
-    }
+}
 
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
+
   
 
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: white;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
 
-/* Number text (1/3 etc) */
-.numbertextB {
-    color: black;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-    }
       
   
 
